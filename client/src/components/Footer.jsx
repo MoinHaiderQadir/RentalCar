@@ -8,7 +8,7 @@ const Footer= ()=>{
             <div >
                 <img src={assets.logo} className="h-8 md:h-9" />
                 <p className='max-w-80 mt-3'>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                Your comfort and satisfaction drive us forward. Reliable cars, fair prices, and 24/7 support ensure every journey is smooth, safe, and memorable. Rent with confidence today!
                 </p>
                 <div className='flex items-center gap-3 mt-6'>
                    <a href="#"> <img src={assets.facebook_logo} className="w-5 h-5" alt="" /> </a>
@@ -41,16 +41,16 @@ const Footer= ()=>{
             <div>
                 <h2 className='text-base font-medium text-gray-800'>Contact</h2>
                 <ul className='mt-3 flex flex-col gap-1.5'>
-                    <li><a href="#">3075 Luxury Car</a></li>
+                    <li><a href="#">Luxury Cars</a></li>
                     <li><a href="#">Hyderabad Sindh, Pakistan</a></li>
                     <li><a href="#">+92 3325408289</a></li>
-                    <li><a href="#">carrental@gmail.com</a></li>
+                    <li><a href="#">rentalcar@gmail.com</a></li>
                 </ul>
             </div>
         </div>
     
         <div className='flex flex-col md:flex-row gap-2 items-center justify-between py-5'>
-            <p>© {new Date().getFullYear()} <a href="https://prebuiltui.com">PrebuiltUI</a>. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} <a href="https://prebuiltui.com">Reant Car</a>. All rights reserved.</p>
             <ul className='flex items-center gap-4'>
                 <li><a href="#">Privacy</a>
                 </li>

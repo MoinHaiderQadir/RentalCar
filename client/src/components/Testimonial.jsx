@@ -22,27 +22,27 @@ const Testimonial = ()=>{
 
     const testimonials = [
         {
-            name: 'Faizan Hassan',
-            Location: 'Hyderabad',
+            name: 'Seth Suleman',
+            Location: 'Sanghar',
             image: assets.testimonial_image_1,
             testimonial:
-                'Integrating this component into our project was seamless and saved us countless hours of development and testing. Highly recommended!',
+                'The Sportage made my trip unforgettable. Luxurious feel, powerful drive, and very comfortable for long journeys. Excellent service with quick delivery and pickup. Truly worth it!',
            
         },
         {
-            name: 'Aftab Baloch',
-            Location: 'Nawabshah',
+            name: 'G. Shabbir',
+            Location: 'Hyderabad',
             image: assets.testimonial_image_2,
             testimonial:
-                'Integrating this component into our project was seamless and saved us countless hours of development and testing. Highly recommended!',
+                'I rented a Cultus for a family visit. Spacious, reliable, and economical on fuel. The entire process was hassle-free, and the car felt like my own.',
            
         },
         {
-            name: 'Moin Haider',
+            name: 'G. Shabbir',
             Location: 'Karachi',
             image: assets.testimonial_image_2,
             testimonial:
-                'Integrating this component into our project was seamless and saved us countless hours of development and testing. Highly recommended!',
+                'The Alto was perfect for my city trip—compact, fuel-efficient, and easy to drive. Booking was smooth, and I felt comfortable throughout my journey. Highly recommended!',
            
         }
     ];
@@ -61,7 +61,7 @@ const Testimonial = ()=>{
                     <div key={index}  ref={(el) => (cardRefs.current[index] = el)}
                         onMouseMove={(e) => handleMouseMove(e, index)}
                         onMouseLeave={handleMouseLeave}
-                        className="relative border border-gray-200 rounded-lg overflow-hidden max-w-sm hover:shadow-lg transition-shadow duration-300 bg-white p-6 rounded-xl shadow-lg "
+                        className="relative border border-gray-200  overflow-hidden max-w-sm hover:shadow-lg transition-shadow duration-300 bg-white p-6 rounded-xl shadow-lg "
                     >
                         {tooltip.visible && tooltip.text === testimonial.name && (
                             <span className="absolute px-2.5 py-1 text-sm rounded text-nowrap bg-indigo-500 text-white pointer-events-none transition-all duration-300"
@@ -72,7 +72,7 @@ const Testimonial = ()=>{
 
                         <div className="flex flex-col items-center justify-center p-8 text-center">
                             <div className="mb-4 text-gray-500">
-                                <h3 className="text-lg font-semibold text-gray-900">Very easy to integrate</h3>
+                                <h3 className="text-lg font-semibold text-gray-900">Testimonials</h3>
                                 <p className="my-4 text-sm line-clamp-3">{testimonial.testimonial}</p>
                             </div>
                             <div className="flex items-center justify-center">
